@@ -175,7 +175,6 @@ export const StylesSection: React.FC = () => {
                 {/* Image half */}
                 <div className="md:col-span-6 relative bg-[#f0eae1] min-h-[320px] md:min-h-[460px] overflow-hidden select-none">
                   <SmartImage
-                    productId={current.id}
                     src={current.image}
                     alt={current.name}
                     className="w-full h-full"
@@ -331,7 +330,6 @@ export const StylesSection: React.FC = () => {
                     }`}
                   >
                     <SmartImage
-                      productId={p.id}
                       src={p.image}
                       alt={p.name}
                       className="w-7 h-7 rounded-lg object-cover"

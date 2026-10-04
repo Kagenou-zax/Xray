@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { Logo } from './Logo';
 import { useCart } from '../context/CartContext';
-import { usePhotos } from '../context/PhotoContext';
-import { ShoppingBag, MessageCircle, Menu, X, Camera } from 'lucide-react';
+import { ShoppingBag, MessageCircle, Menu, X } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/footwear';
 
 export const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { totalCount, setIsCartOpen } = useCart();
-  const { setIsManagerOpen } = usePhotos();
 
   const navLinks = [
     { label: 'About', href: '#about' },
@@ -44,16 +42,6 @@ export const Header: React.FC = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-2.5 sm:gap-3">
-          <button
-            type="button"
-            onClick={() => setIsManagerOpen(true)}
-            className="p-2 sm:px-3 sm:py-2 rounded-full bg-[#e8742a]/20 hover:bg-[#e8742a]/30 text-[#f6efe6] border border-[#e8742a]/50 text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer"
-            title="Open photo manager to input your 4 pictures"
-          >
-            <Camera className="w-4 h-4 text-[#e8742a]" />
-            <span className="hidden lg:inline text-xs">Input My Photos</span>
-          </button>
-
           <button
             type="button"
             onClick={() => setIsCartOpen(true)}

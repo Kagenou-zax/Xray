@@ -73,7 +73,6 @@ export const CustomOrderSection: React.FC = () => {
                   className="relative rounded-2xl overflow-hidden aspect-[4/3] border border-white/15 bg-[#f0eae1] shadow-md group"
                 >
                   <SmartImage
-                    productId={p.id}
                     src={p.image}
                     alt={p.name}
                     className="w-full h-full"

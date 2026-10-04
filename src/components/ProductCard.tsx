@@ -41,7 +41,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Product Image Container */}
       <div className="relative aspect-[4/3] bg-[#f0eae1] overflow-hidden select-none">
         <SmartImage
-          productId={product.id}
           src={product.image}
           alt={product.name}
           className="w-full h-full"

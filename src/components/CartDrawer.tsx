@@ -116,7 +116,6 @@ export const CartDrawer: React.FC = () => {
                   >
                     <div className="w-16 h-16 rounded-xl overflow-hidden bg-[#1c110b] shrink-0 border border-black/10">
                       <SmartImage
-                        productId={item.id}
                         src={item.image}
                         alt={item.name}
                         className="w-full h-full"
