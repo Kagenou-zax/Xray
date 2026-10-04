@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- White circular badge base -->
+  <circle cx="250" cy="250" r="240" fill="#ffffff" stroke="#e8e2da" stroke-width="2"/>
+  
+  <!-- Central black circle emblem -->
+  <circle cx="250" cy="205" r="110" fill="#1c1917" />
+  
+  <!-- Stylized calligraphy "Scc" matching the official brand logo -->
+  <g fill="#ffffff">
+    <!-- Capital Cursive 'S' -->
+    <!-- Top entrance loop -->
+    <path d="M 215 152 C 205 138, 192 142, 185 152 C 176 166, 180 184, 192 195 C 202 205, 218 212, 222 222 C 226 233, 216 248, 198 250 C 182 252, 172 242, 168 232 C 166 226, 160 225, 158 230 C 155 237, 162 252, 178 258 C 196 264, 218 261, 230 248 C 242 233, 238 214, 225 202 C 215 192, 198 184, 196 172 C 194 162, 204 150, 218 155 C 223 157, 228 152, 226 147 C 224 144, 220 148, 215 152 Z" />
+    <path d="M 182 146 C 172 158, 170 178, 178 196 C 182 206, 192 214, 202 222 C 214 232, 220 240, 218 250 C 215 258, 205 264, 192 263 C 180 262, 170 254, 166 244 C 164 240, 158 240, 156 245 C 153 254, 164 268, 182 271 C 202 274, 224 266, 232 248 C 238 232, 230 216, 218 205 C 206 194, 196 186, 196 175 C 196 166, 204 158, 214 158 C 220 158, 224 154, 222 148 C 214 140, 194 134, 182 146 Z" />
+    
+    <!-- First cursive 'c' flourish -->
+    <path d="M 235 224 C 230 212, 238 196, 252 196 C 264 196, 272 206, 272 218 C 272 222, 268 224, 264 221 C 258 215, 252 212, 246 215 C 240 218, 237 228, 240 238 C 243 246, 250 250, 258 248 C 263 247, 268 243, 271 239 C 274 235, 278 238, 276 243 C 272 250, 264 256, 255 258 C 242 260, 232 252, 228 238 C 226 232, 232 226, 235 224 Z" />
+    
+    <!-- Second cursive 'c' flourish -->
+    <path d="M 276 220 C 272 208, 280 192, 294 192 C 306 192, 314 202, 314 214 C 314 218, 310 220, 306 217 C 300 211, 294 208, 288 211 C 282 214, 279 224, 282 234 C 285 242, 292 246, 300 244 C 305 243, 310 239, 313 235 C 316 231, 320 234, 318 239 C 314 246, 306 252, 297 254 C 284 256, 274 248, 270 234 C 268 228, 273 222, 276 220 Z" />
+  </g>
+
+  <!-- "Sole Crafts Creation" brand name -->
+  <text 
+    x="250" 
+    y="350" 
+    text-anchor="middle" 
+    font-family="'Karla', 'Montserrat', -apple-system, sans-serif" 
+    font-size="31" 
+    font-weight="800" 
+    fill="#1c1917" 
+    letter-spacing="-0.5"
+  >
+    Sole Crafts Creation
+  </text>
+
+  <!-- Horizontal divider line -->
+  <line x1="135" y1="362" x2="365" y2="362" stroke="#1c1917" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Tagline: "WE MADE IT, YOU ROCK IT" -->
+  <text 
+    x="250" 
+    y="376" 
+    text-anchor="middle" 
+    font-family="'Karla', 'Montserrat', -apple-system, sans-serif" 
+    font-size="12" 
+    font-weight="800" 
+    fill="#1c1917" 
+    letter-spacing="2"
+  >
+    WE MADE IT, YOU ROCK IT
+  </text>
+</svg>

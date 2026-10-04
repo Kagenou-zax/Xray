@@ -1,0 +1,6 @@
+{
+  "name": "Sole Crafts Creation | Handmade Footwear",
+  "description": "Quality, classy, and affordable handmade footwear. Slides and sandals handcrafted with care and delivered to you.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
